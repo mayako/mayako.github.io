@@ -1,0 +1,171 @@
+{
+  "style": {
+
+  },
+  "tabs": [
+    {
+      "label": "PROFESSIONAL",
+      "list": [
+        {
+          "title": "HTML5",
+          "icon": "devicon-html5-plain-wordmark",
+          "color": "#E54D26",
+          "rowspan": "2",
+          "colspan": "2"
+        },
+        {
+          "title": "CSS3",
+          "icon": "devicon-css3-plain-wordmark",
+          "color": "#3D8FC6",
+          "rowspan": "2",
+          "colspan": "2"
+        },
+        {
+          "title": "Bootstrap",
+          "icon": "devicon-bootstrap-plain-wordmark",
+          "color": "#59407F",
+          "rowspan": "1",
+          "colspan": "1"
+        },
+        {
+          "title": "Sass",
+          "icon": "devicon-sass-original",
+          "color": "#CC6699",
+          "rowspan": "1",
+          "colspan": "1"
+        },
+        {
+          "title": "Javascript",
+          "icon": "devicon-javascript-plain",
+          "color": "#F0DB4F",
+          "rowspan": "2",
+          "colspan": "2"
+        },
+        {
+          "title": "jQuery",
+          "icon": "devicon-jquery-plain-wordmark",
+          "color": "#0769AD",
+          "rowspan": "2",
+          "colspan": "2"
+        },
+        {
+          "title": "AngularJS",
+          "icon": "devicon-angularjs-plain-wordmark",
+          "color": "#C4473A",
+          "rowspan": "1",
+          "colspan": "2"
+        },
+        {
+          "title": "PHP",
+          "icon": "devicon-php-plain",
+          "color": "#8892BF",
+          "rowspan": "2",
+          "colspan": "2"
+        },
+        {
+          "title": "Laravel",
+          "icon": "devicon-laravel-plain-wordmark",
+          "color": "#FD4F31",
+          "rowspan": "1",
+          "colspan": "1"
+        },
+        {
+          "title": "MySQL",
+          "icon": "devicon-mysql-plain-wordmark",
+          "color": "#00618A",
+          "rowspan": "2",
+          "colspan": "2"
+        },
+        {
+          "title": "CoffeeScript",
+          "icon": "devicon-coffeescript-original-wordmark",
+          "color": "#28334C",
+          "rowspan": "1",
+          "colspan": "1"
+        },
+        {
+          "title": "Ruby",
+          "icon": "devicon-ruby-plain-wordmark",
+          "color": "#D91404",
+          "rowspan": "1",
+          "colspan": "2"
+        },
+        {
+          "title": "Ruby on Rails",
+          "icon": "devicon-rails-plain-wordmark",
+          "color": "#A62C46",
+          "rowspan": "1",
+          "colspan": "1"
+        },
+        {
+          "title": "Python",
+          "icon": "devicon-python-plain-wordmark",
+          "color": "#FFD845",
+          "rowspan": "1",
+          "colspan": "1"
+        },
+        {
+          "title": "Java",
+          "icon": "devicon-java-plain-wordmark",
+          "color": "#EA2D2E",
+          "rowspan": "1",
+          "colspan": "2"
+        }
+      ]
+    },
+    {
+      "label": "WISHLIST",
+      "list":[
+        {
+          "title": "Android",
+          "icon": "devicon-android-plain-wordmark",
+          "color": "#A4C439",
+          "rowspan": "1",
+          "colspan": "1"
+        },
+        {
+          "title": "Django",
+          "icon": "devicon-django-plain",
+          "color": "#003A2B",
+          "rowspan": "1",
+          "colspan": "1"
+        },
+        {
+          "title": "Heroku",
+          "icon": "devicon-heroku-original-wordmark",
+          "color": "#6762A6",
+          "rowspan": "1",
+          "colspan": "1"
+        },
+        {
+          "title": "NodeJS",
+          "icon": "devicon-nodejs-plain",
+          "color": "#83CD29",
+          "rowspan": "1",
+          "colspan": "1"
+        },
+        {
+          "title": "PostgreSQL",
+          "icon": "devicon-postgresql-plain-wordmark",
+          "color": "#336791",
+          "rowspan": "1",
+          "colspan": "1"
+        },
+        {
+          "title": "Symfony",
+          "icon": "devicon-symfony-original-wordmark",
+          "color": "#1A171B",
+          "rowspan": "1",
+          "colspan": "1"
+        },
+        {
+          "title": "Wordpress",
+          "icon": "devicon-wordpress-plain-wordmark",
+          "color": "#494949",
+          "rowspan": "1",
+          "colspan": "1"
+        }
+      ]
+    }
+  ]
+}

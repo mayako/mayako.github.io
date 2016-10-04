@@ -1,0 +1,309 @@
+{
+  "style": {
+    "icon": {
+      "school": {
+        "fill": "#363F45"
+      },
+      "subscriptions": {
+        "fill": "#F34235"
+      },
+      "import_contacts": {
+        "fill": "#2095F2"
+      },
+      "dvr": {
+        "fill": "#5F7C8A"
+      }
+    }
+  },
+  "list": [
+    {
+      "name": "Licenciatura en Informática",
+      "place": "Tecnológico de Estudios Superiores de Ecatepec",
+      "icon": "school",
+      "period": {
+        "start": {
+          "year": 2010
+        },
+        "end": {
+          "year": 2014
+        }
+      }
+    },
+    {
+      "name": "Curso de Ingles",
+      "place": "Quick Learning",
+      "icon": "school",
+      "period": {
+        "start": {
+          "month": 2,
+          "year": 2015
+        },
+        "end": "UNFINISHED"
+      }
+    },
+    {
+      "name": "Curso Profesional de Git y GitHub",
+      "place": "Platzi",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 6,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "Curso Gratis de Ruby",
+      "place": "Platzi",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 7,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "Curso de Ruby on Rails",
+      "place": "Platzi",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 7,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "Ejemplos prácticos con AngularJS",
+      "place": "Video2Brain",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 8,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "Seguridad en PHP",
+      "place": "Video2Brain",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 7,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "PHP orientado a objetos",
+      "place": "Video2Brain",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 4,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "GitHub para programadores",
+      "place": "Video2Brain",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 6,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "Curso Laravel",
+      "place": "Codigofacilito",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 12,
+          "year": 2015
+        }
+      }
+    },
+    {
+      "name": "PHP Orientado a Objectos",
+      "place": "Codigofacilito",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 9,
+          "year": 2015
+        }
+      }
+    },
+    {
+      "name": "Curso de AngularJS",
+      "place": "Codigofacilito",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 4,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "Curso de Python",
+      "place": "Codigofacilito",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 8,
+          "year": 2014
+        }
+      }
+    },
+    {
+      "name": "Curso de Django",
+      "place": "Codigofacilito",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 8,
+          "year": 2014
+        }
+      }
+    },
+    {
+      "name": "Curso de Ruby",
+      "place": "Codigofacilito",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 4,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "Curso de Ruby on Rails",
+      "place": "Codigofacilito",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 4,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "Curso de jQuery Mobile",
+      "place": "Codigofacilito",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 3,
+          "year": 2015
+        }
+      }
+    },
+    {
+      "name": "Curso jQuery",
+      "place": "Codigofacilito",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 8,
+          "year": 2012
+        }
+      }
+    },
+    {
+      "name": "Learn Ruby on Rails",
+      "place": "Codeacademy",
+      "icon": "dvr",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 7,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "Learn AngularJS 1.X",
+      "place": "Codeacademy",
+      "icon": "dvr",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 8,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "AngularJS Avanzado",
+      "place": "Video2Brain",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 7,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "AngularJS. De 0 a 100",
+      "place": "Video2Brain",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 7,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "Git",
+      "place": "Video2Brain",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 5,
+          "year": 2016
+        }
+      }
+    },
+    {
+      "name": "jQuery",
+      "place": "Video2Brain",
+      "icon": "subscriptions",
+      "details": true,
+      "period": {
+        "start": {
+          "month": 8,
+          "year": 2012
+        }
+      }
+    }
+  ]
+}

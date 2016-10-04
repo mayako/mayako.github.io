@@ -1,0 +1,162 @@
+{
+  "style": {
+    "card": {
+      "border-top": "3px solid #2196F3"
+    },
+    "period": {
+      "color": "#2196F3",
+      "font-weight": "bold"
+    }
+  },
+  "jobs": [
+    {
+      "place": "Tecnológico de Estudios Superiores de Ecatepec",
+      "workstation": "Centro de Cómputo y Telemática",
+
+      "period": {
+        "start": {
+          "month": "MONTHS.9",
+          "year": "2012"
+        },
+        "end": {
+          "month": "MONTHS.3",
+          "year": "2013"
+        }
+      },
+
+      "details": true,
+
+      "image": {
+        "style": {
+          "background-image": "url('assets/img/ecatepec-1.jpg')",
+          "background-position": "0px -70px"
+        }
+      },
+
+      "tabs": [
+        {
+          "label": "DESCRIPTION",
+          "content": "JOB.TESE.DESCRIPTION"
+        },
+        {
+          "label": "TASKS",
+          "list": [
+            "JOB.TESE.TASKS.1",
+            "JOB.TESE.TASKS.2"
+          ]
+        }
+      ]
+    },
+    {
+      "place": "Instituto Nacional de Estadística y Geografía ",
+      "workstation": "Departamento de Cómputo, Área de Informática.",
+
+      "period": {
+        "start": {
+          "month": "MONTHS.2",
+          "year": "2014"
+        },
+        "end": {
+          "month": "MONTHS.6",
+          "year": "2014"
+        }
+      },
+
+      "image": {
+        "style": {
+          "background-image": "url('assets/img/inegi.jpg')",
+          "background-position": "0px -70px"
+        }
+      },
+
+      "details": true,
+
+      "tabs": [
+        {
+          "label": "DESCRIPTION",
+          "content": "JOB.INEGI.DESCRIPTION"
+        },
+        {
+          "label": "TASKS",
+          "list": [
+            "JOB.INEGI.TASKS.1",
+            "JOB.INEGI.TASKS.2"
+          ]
+        }
+      ]
+    },
+    {
+      "place": "Benkio Comunicaciones",
+      "workstation": "Área de Desarrollo",
+
+      "period": {
+        "start": {
+          "month": "MONTHS.11",
+          "year": "2014"
+        },
+        "end": {
+          "month": "MONTHS.3",
+          "year": "2016"
+        }
+      },
+
+      "image": {
+        "style": {
+          "background-image": "url('assets/img/benkioBan(gplus2).png')",
+          "background-position": "0px 0px"
+        }
+      },
+
+      "tabs": [
+        {
+          "label": "DESCRIPTION",
+          "content": "JOB.BENKIO.DESCRIPTION"
+        },
+        {
+          "label": "TASKS",
+          "list": [
+            "JOB.BENKIO.TASKS.1",
+            "JOB.BENKIO.TASKS.2",
+            "JOB.BENKIO.TASKS.3",
+            "JOB.BENKIO.TASKS.4",
+            "JOB.BENKIO.TASKS.5"
+          ]
+        }
+      ]
+    },
+    {
+      "place": "TSB Desarrollo",
+      "workstation": "",
+
+      "period": {
+        "start": {
+          "month": "MONTHS.5",
+          "year": "2016"
+        },
+        "end": "NOWADAYS"
+      },
+
+      "image": {
+        "style": {
+          "background-image": "url('assets/img/IMG_20160831_181438_resize.jpg')",
+          "background-position": "0px -20px"
+        }
+      },
+
+      "tabs": [
+        {
+          "label": "DESCRIPTION",
+          "content": "JOB.TSB.DESCRIPTION"
+        },
+        {
+          "label": "TASKS",
+          "list": [
+            "JOB.TSB.TASKS.1",
+            "JOB.TSB.TASKS.2",
+            "JOB.TSB.TASKS.3"
+          ]
+        }
+      ]
+    }
+  ]
+}

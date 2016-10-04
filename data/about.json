@@ -1,0 +1,38 @@
+{
+  "photo": "IMG_20160805_194128_resize.jpg",
+
+  "firstname": "Yakin",
+  "lastname": "Garcia",
+
+  "birthdate": "1991-04-13",
+
+  "address": "MY.ADDRESS",
+  "degree": "MY.DEGREE",
+  "intro": "MY.INTRO",
+
+  "contact": {
+    "mail": {
+      "title": "MAIL",
+      "icon": "envelope",
+      "link": "mailto:mayako.0413@gmail.com",
+      "text": "mayako.0413@gmail.com"
+    },
+    "linkedin": {
+      "title": "Linkedin",
+      "icon": "linkedin",
+      "link": "http://mx.linkedin.com/in/yakingarcia",
+      "text": "/yakingarcia"
+    },
+    "github": {
+      "title": "Github",
+      "icon": "github",
+      "link": "https://github.com/mayako",
+      "text": "@mayako"
+    },
+    "mobile": {
+      "title": "MOBILE",
+      "icon": "phone",
+      "text": "+52 1 55 2200 0959"
+    }
+  }
+}

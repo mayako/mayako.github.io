@@ -1,0 +1,90 @@
+<div layout="row" layout-align="space-between center" layout-wrap layout-margin>
+  <div class="md-display-1">{{ 'JOBS' | translate }}</div>
+  <md-switch ng-model="details" class="md-primary">{{ 'DETAILS' | translate }}</md-switch>
+</div>
+
+<div
+  layout
+  layout-xs="column"
+  layout-sm="column"
+  layout-md="column"
+  layout-gt-md="row"
+  layout-wrap>
+  <div
+    flex
+    flex-xs="100"
+    flex-sm="100"
+    flex-md="100"
+    flex-lg="50"
+    flex-gt-lg="33"
+    ng-repeat="job in me.jobs"
+    ng-hide="!details && job.details">
+    <md-card ng-style=" job.style ? job.style : me.style.card ">
+
+      <!-- HEADER -->
+      <md-card-header>
+        <md-card-header-text>
+
+          <!-- PERIOD -->
+          <div class="md-subhead" layout layout-align="center center" ng-style="me.style.period">
+            <span>
+              {{ job.period.start.month | translate }}
+              {{ job.period.start.year }}
+            </span>
+            &nbsp;-&nbsp;
+            <span ng-if="job.period.end.month">
+              {{ job.period.end.month | translate}}
+              {{ job.period.end.year }}
+            </span>
+            <span ng-if="!job.period.end.month">
+              {{ job.period.end | translate }}
+            </span>
+          </div>
+
+          <!-- PLACE -->
+          <div class="md-title">{{ job.place }}</div>
+
+          <!-- WORKSTATION -->
+          <div class="md-subhead">
+            {{ job.workstation }}
+          </div>
+        </md-card-header-text>
+      </md-card-header>
+
+      <!-- IMAGE -->
+      <img class="md-card-image" ng-if="job.image" ng-src="{{job.image.src}}" ng-style="job.image.style">
+
+      <!-- TABS -->
+      <md-tabs md-align-tabs="bottom" md-no-ink-bar md-dynamic-height>
+        <md-tab ng-repeat="tab in job.tabs" label="{{ tab.label | translate }}">
+
+          <!-- IMAGE -->
+          <img class="md-card-image" ng-if="tab.image" ng-src="{{tab.image.src}}" ng-style="tab.image.style">
+
+          <!-- TITLE -->
+          <md-card-title ng-if="tab.title">
+            <md-card-title-text>
+              <div class="md-headline">{{ tab.title }}</div>
+            </md-card-title-text>
+          </md-card-title>
+
+          <!-- CONTENT -->
+          <md-card-content ng-if="tab.content">
+            <p>
+              {{ tab.content | translate }}
+            </p>
+          </md-card-content>
+
+          <!-- LIST -->
+          <md-list ng-if="tab.list">
+            <md-list-item class="md-body-1" ng-repeat="item in tab.list" ng-click="null" class="md-body-1">
+              <p>{{ item | translate }}</p>
+            </md-list-item>
+          </md-list>
+
+        </md-tab>
+      </md-tabs>
+
+    </md-card>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<header>
+  <ng-include src="'app/views/partials/header.html'"></ng-include>
+</header>
+<main layout="column" layout-align="start center" ng-style="me.style.main">
+  <section id="about">
+    <ng-include src="'app/views/about.html'" ng-controller="AboutController"></ng-include>
+  </section>
+  <section id="skill">
+    <ng-include src="'app/views/skill.html'" ng-controller="SkillController"></ng-include>
+  </section>
+  <section id="job">
+    <ng-include src="'app/views/job.html'" ng-controller="JobController"></ng-include>
+  </section>
+  <section id="education">
+    <ng-include src="'app/views/education.html'" ng-controller="EducationController"></ng-include>
+  </section>
+  <footer>
+    <ng-include src="'app/views/partials/footer.html'"></ng-include>
+  </footer>
+</main>

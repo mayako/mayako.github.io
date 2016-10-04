@@ -1,0 +1,39 @@
+<div layout="row" layout-align="space-between center" layout-wrap layout-margin>
+  <div class="md-display-1">{{ 'EDUCATION' | translate }}</div>
+  <div layout="row" layout-align="space-around center">
+    <md-switch ng-model="details" class="md-primary">{{ 'DETAILS' | translate }}</md-switch>
+  </div>
+</div>
+<div>
+  <md-card>
+    <md-list>
+      <md-list-item
+        class="md-2-line"
+        ng-repeat="item in me.list | orderBy:'period.start.month':false | orderBy:'period.start.year':true"
+        ng-click="null"
+        ng-hide="!details && item.details">
+
+        <!-- ICON -->
+        <ng-md-icon icon="{{ item.icon }}" class="md-avatar" size="50" ng-style="me.style.icon[item.icon]"></ng-md-icon>
+
+        <!-- CONTENT -->
+        <div class="md-list-item-text">
+          <h3>{{ item.name }} <md-badge class="{{ item.badge | lowercase }}" ng-if="item.badge">{{ item.badge | translate }}</md-badge></h3>
+          <p>{{  item.place }}</p>
+        </div>
+
+        <!-- DATE -->
+        <div>
+          <p>
+            <span ng-if="item.period.start.month">{{ 'MONTHS.'+item.period.start.month | translate }}</span>
+            <span ng-if="item.period.start.year">{{ item.period.start.year }}</span>
+            <span ng-if="item.period.end">&nbsp;-&nbsp;</span>
+            <span ng-if="!item.period.end.year">{{ item.period.end | translate }}</span>
+            <span ng-if="item.period.end.month">{{ 'MONTHS.'+item.period.end.month | translate }}</span>
+            <span ng-if="item.period.end.year">{{ item.period.end.year }}</span>
+          </p>
+        </div>
+      </md-list-item>
+    </md-list>
+  </md-card>
+</div>

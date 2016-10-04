@@ -1,0 +1,40 @@
+<div layout="column" layout-align="center center">
+
+  <!-- CONTACT -->
+  <div layout="column" class="contact">
+    <div
+      layout="row"
+      layout-align="end center"
+      ng-repeat="item in me.contact"
+      class="items"
+      title="{{ item.title | translate }}">
+
+        <div ng-if="item.text">
+          <a href="{{ item.link }}" ng-if="item.link" target="_blank">{{ item.text | translate }}</a>
+          <span ng-if="!item.link">{{ item.text | translate }}</span>
+        </div>
+        <div class="fa fa-{{ item.icon }}" ng-if="item.icon"></div>
+
+    </div>
+  </div>
+
+  <!-- ABOUT ME -->
+  <div layout="column" layout-align="end center" class="profile">
+
+    <!-- PHOTO -->
+    <div class="photo" style="background-image: url('assets/img/{{ me.photo }}')"></div>
+
+    <!-- INFO -->
+    <div layout="column" layout-align="center center" class="info">
+      <div class="md-display-1">
+        {{ 'IAM' | translate }}
+        <b>{{ me.firstname }} {{ me.lastname }}</b>
+      </div>
+      <div class="md-headline">{{ me.degree | translate }}</div>
+    </div>
+  </div>
+
+  <div class="md-headline intro">
+    <span>{{ me.intro | translate }}</span>
+  </div>
+</div>
