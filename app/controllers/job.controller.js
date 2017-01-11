@@ -5,15 +5,11 @@
         .module('ProfileApp')
         .controller('JobController', JobController);
 
-    JobController.$inject = ['$scope', '$rootScope', 'data'];
+    JobController.$inject = ['$scope', '$rootScope', 'database'];
 
-    function JobController($scope, $rootScope, data) {
-        data.get('job').success(function(response) {
-            $scope.me = response;
-            $scope.me.jobs = response.jobs.reverse();
-        });
-
+    function JobController($scope, $rootScope, database) {
         $scope.details = false;
+        $scope.me = database.get("job");
     }
 
 })();

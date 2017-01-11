@@ -6,9 +6,10 @@
             'ngRoute',
             'ngMaterial',
             'ngMdIcons',
-            'pascalprecht.translate'
+            'pascalprecht.translate',
+            'firebase'
         ])
-        .config(configure);
+        .config(configure)
 
     configure.$inject = ['$mdThemingProvider', '$translateProvider'];
 
@@ -22,8 +23,11 @@
             .warnPalette('red');
 
         // Set Language default
-        $translateProvider.useSanitizeValueStrategy(null);
         $translateProvider.preferredLanguage('es');
+        // Loader
+        $translateProvider.useLoader('firebaseLocales');
+
+        $translateProvider.useSanitizeValueStrategy(null);
     }
 
 })();

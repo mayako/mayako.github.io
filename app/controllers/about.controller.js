@@ -5,12 +5,10 @@
         .module('ProfileApp')
         .controller('AboutController', AboutController);
 
-    AboutController.$inject = ['$scope', '$rootScope', 'data'];
+    AboutController.$inject = ['$scope', '$rootScope', 'database'];
 
-    function AboutController($scope, $rootScope, data) {
-        data.get('about').success(function(response) {
-            $scope.me = response;
-        });
+    function AboutController($scope, $rootScope, database) {
+        $scope.me = database.get('about');
     }
 
 })();

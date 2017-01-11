@@ -5,14 +5,16 @@
         .module('ProfileApp')
         .controller('EducationController', EducationController);
 
-    EducationController.$inject = ['$scope', 'data'];
+    EducationController.$inject = ['$scope', 'database'];
 
-    function EducationController($scope, data) {
-        data.get('education').success(function(response) {
-            $scope.me = response;
-        });
+    function EducationController($scope, database) {
+        // data.get('education').success(function(response) {
+        //     $scope.me = response;
+        // });
 
         $scope.details = false;
+
+        $scope.me = database.get("education");
     }
 
 })();

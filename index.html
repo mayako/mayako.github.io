@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Yakin Garcia | Curriculum Vitae</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600">
@@ -36,16 +38,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.7.1/angular-material-icons.min.js"></script>
 
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/2.1.0/angularfire.min.js"></script>
+
     <!-- Scripts -->
     <script src="app/app.js"></script>
 
     <!-- Configuration -->
+    <script src="config/database.js"></script>
     <script src="config/routes.js"></script>
-    <script src="config/services/data.service.js"></script>
+    <script src="config/services/database.service.js"></script>
+    <script src="config/services/locales.service.js"></script>
     <script src="config/filters/string.js"></script>
     <script src="config/filters/date.js"></script>
-    <script src="config/locales/es.js"></script>
-    <script src="config/locales/en.js"></script>
 
     <!-- Controllers -->
     <script src="app/controllers/home.controller.js"></script>
